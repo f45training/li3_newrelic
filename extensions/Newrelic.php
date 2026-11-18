@@ -4,9 +4,9 @@ namespace li3_newrelic\extensions;
 
 use lithium\core\Environment;
 use lithium\core\Libraries;
-use lithium\core\StaticObject;
+use lithium\core\StaticObjectDeprecated;
 
-class Newrelic extends StaticObject {
+class Newrelic extends StaticObjectDeprecated {
 
 	/**
 	 * Simple class to call newrelic method if call standard is met.
@@ -68,5 +68,3 @@ class Newrelic extends StaticObject {
 	}
 
 }
-
-?>
